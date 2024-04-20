@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "author": "snailsdream <707293891@qq.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "type": "module",
+  "dependencies": {
+    "@ant-design/pro-components": "^2.7.1",
+    "ahooks": "^3.7.11",
+    "antd": "^5.16.2",
+    "axios": "^1.6.8",
+    "https": "^1.0.0",
+    "immer": "^10.0.4",
+    "lodash": "^4.17.21",
+    "qs": "^6.12.1",
+    "umi": "^4.1.10"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-multi-entry": "^6.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
+    "@rollup/plugin-strip": "^3.0.4",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "rollup": "^3.29.4",
+    "typescript": "^5.0.3"
+  }
+}
